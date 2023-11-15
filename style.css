@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.container-button {
+    margin: 30px 0 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #79cb15;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 110px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    justify-content: center;
+}
+
+LI {
+    border: 2PX solid #8133FF;
+    border-radius: 5PX;
+    padding: 5PX;
+}
+
+img {
+    width: 100%;
+    border-radius: 5PX;
+}
+
+p {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.item-price {
+    font-weight: bold;
+    color: #79cb15;
+}
